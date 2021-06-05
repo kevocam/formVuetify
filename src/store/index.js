@@ -18,6 +18,7 @@ export default new Vuex.Store({
       state.todoPersons = person
       console.log(state.todoPersons)
     },
+    
     ADD_PERSON(state, person){
     let persons = state.persons.concat(person)
     state.persons = persons
